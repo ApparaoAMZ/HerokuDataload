@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: dapparao
+Build-Jdk: 11.0.8
+Implementation-Title: HerokuDataLoad
+Implementation-Version: 1.0-SNAPSHOT
+Implementation-Vendor-Id: com.heroku
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/HerokuDataLoad
+Created-By: Maven Integration for Eclipse
+
