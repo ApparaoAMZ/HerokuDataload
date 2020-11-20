@@ -11,23 +11,26 @@ import com.heroku.model.Interview;
 import com.heroku.model.Note;
 import com.heroku.model.Response;
 import com.heroku.model.ResponseAnswer;
-
+ /**
+  * Dao service to run data load method in main class
+  * 
+  */
 public interface HerokuDataDao {
-	public void insertApplicationData(List<Application> apl);
+	public void insertApplicationData(List<Application> lstApl);
 
-	public void insertAssessmentData(List<Assessment> assmt);
+	public void insertAssessmentData(List<Assessment> lstAssmt);
 
-	public void insertEmailMessageData(List<EmailMessage> emms);
+	public void insertEmailMessageData(List<EmailMessage> lstEmms);
 
-	public void insertErrorLogData(List<ErrorLog> emms);
+	public void insertErrorLogData(List<ErrorLog> lstEmms);
 
-	public void insertIntegrationTransactionData(List<IntegrationTransaction> intrans);
+	public void insertIntegrationTransactionData(List<IntegrationTransaction> lstIntrans);
 
-	public void insertInterviewData(List<Interview> interview);
+	public void insertInterviewData(List<Interview> lstInterview);
 
-	public void insertNoteData(List<Note> notes);
+	public void insertNoteData(List<Note> lstNotes);
 
-	public void insertResponseData(List<Response> response);
+	public void insertResponseData(List<Response> lstResponse);
 
-	public void insertResponseAnswerData(List<ResponseAnswer> responseanswer);
+	public void insertResponseAnswerData(List<ResponseAnswer> lstResponseanswer);
 }

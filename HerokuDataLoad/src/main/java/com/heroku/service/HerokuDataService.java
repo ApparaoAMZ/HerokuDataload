@@ -1,7 +1,11 @@
 package com.heroku.service;
 
 import java.util.List;
-
+/**
+ *
+ * service class to run data load method in main class
+ * 
+ */
 public interface HerokuDataService {
 
 	public void insertApplicationData();
