@@ -30,8 +30,7 @@ public class HerokuDataServiceImpl implements HerokuDataService {
 	/**
 	 * creating list of application objects
 	 *
-	 * @param list of application objects
-	 * @return void
+     * @return void
 	 */ 
 	@Override
 	public void insertApplicationData() {
@@ -391,7 +390,6 @@ public class HerokuDataServiceImpl implements HerokuDataService {
 	/**
 	 * creating list of Assessment objects
 	 *
-	 * @param list of Assessment objects
 	 * @return void
 	 */ 
 	@Override
@@ -480,7 +478,6 @@ public class HerokuDataServiceImpl implements HerokuDataService {
 	/**
 	 * creating list of EmailMessage objects
 	 *
-	 * @param list of EmailMessage objects
 	 * @return void
 	 */ 
 	@Override
@@ -540,7 +537,6 @@ public class HerokuDataServiceImpl implements HerokuDataService {
 	/**
 	 * creating list of Errorlog objects
 	 *
-	 * @param list of Errorlog objects
 	 * @return void
 	 */ 
 	@Override
@@ -583,7 +579,6 @@ public class HerokuDataServiceImpl implements HerokuDataService {
 	/**
 	 * creating list of IntegrationTransaction objects
 	 *
-	 * @param list of IntegrationTransaction objects
 	 * @return void
 	 */ 
 	@Override
@@ -644,7 +639,6 @@ public class HerokuDataServiceImpl implements HerokuDataService {
 	/**
 	 * creating list of Interview objects
 	 *
-	 * @param list of Interview objects
 	 * @return void
 	 */ 
 	@Override
@@ -726,7 +720,6 @@ public class HerokuDataServiceImpl implements HerokuDataService {
 	/**
 	 * creating list of Note objects
 	 *
-	 * @param list of Note objects
 	 * @return void
 	 */ 
 	@Override
@@ -765,7 +758,6 @@ public class HerokuDataServiceImpl implements HerokuDataService {
 	/**
 	 * creating list of Response objects
 	 *
-	 * @param list of Response objects
 	 * @return void
 	 */ 
 
@@ -820,8 +812,7 @@ public class HerokuDataServiceImpl implements HerokuDataService {
 	/**
 	 * creating list of ResponseAnswer objects
 	 *
-	 * @param 
-	 * @return void
+	* @return void
 	 */ 
 	@Override
 	public void insertResponseAnswerData() {
