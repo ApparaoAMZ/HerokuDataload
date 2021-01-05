@@ -44,7 +44,7 @@ public class HerokuDataServiceImpl implements HerokuDataService {
 		List<Application> lstApl = new ArrayList<Application>();
 		for (int i = 0; i < 100; i++) {
 			Application ap = new Application();
-			ap.setCandidate__c("candidate" + i);
+			ap.setCandidate__c("candidate"+i);
 			ap.setNational_id_country_ps__c("national_id");
 			ap.setMore_than_one_application__c(true);
 			ap.setLegacy_taleo_external_id__c("legacytaleo");
